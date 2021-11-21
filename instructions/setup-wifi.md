@@ -20,3 +20,11 @@ sudo sh -c "echo '#        <WIFI_SSID>: ' >> /etc/netplan/50-cloud-init.yaml"
 sudo sh -c "echo '#          password: <WIFI_PASSWORD>' >> /etc/netplan/50-cloud-init.yaml"
 sudo reboot
 ```
+After restart
+
+```
+systemctl mask systemd-networkd-wait-online.service
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+sudo apt update
+sudo apt upgrade --yes
+```
