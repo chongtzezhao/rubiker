@@ -1,3 +1,5 @@
+Note: Since you cannot ssh, you will have to either copy the text through a USB or just manually type it in lol
+
 ```
 # wget raw.githubusercontent.com/LaiYanKai/EE4308/main/rubiker.sh
 # source rubiker.sh
