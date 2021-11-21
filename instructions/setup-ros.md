@@ -14,10 +14,9 @@ source ~/.bashrc
 sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
 sudo rosdep init
 rosdep update
-```
 
 # Do tutorials:
 # http://wiki.ros.org/ROS/Tutorials Step 1 to 18
 # got any questions ask.
 # ignore all $ signs. They are to specify the start of a line of command (so you don't key in the wrong thing when the command is too long and broken into multiple lines on the webpage)
-
+```
