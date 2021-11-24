@@ -1,5 +1,7 @@
 Note: Since you cannot ssh, you will have to either copy the text through a USB or just manually type it in lol
 
+Alternative instructions for setting up the wifi can be found [here](https://github.com/thepoppycat/wireless-ap-raspi).
+
 ```
 # wget raw.githubusercontent.com/LaiYanKai/EE4308/main/rubiker.sh
 # source rubiker.sh
