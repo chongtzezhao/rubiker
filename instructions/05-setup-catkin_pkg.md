@@ -16,7 +16,7 @@ Copy and unzip the zip flie into the rpi (using another powershell terminal)
 Switch back to the rpi terminal and unzip the file:
 
 <code>
-  cd ~/ws_rpi/src
+  cd ~/ws_rpi/src\n
   unzip rpi_cam_pub.zip
 </code>
 
@@ -26,7 +26,7 @@ Return to the workspace directory run the package:
 
 
 <code>
-  cd ~/ws_rpi
+  cd ~/ws_rpi\n
   catkin_make -j1
 </code>
 
