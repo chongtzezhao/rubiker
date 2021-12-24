@@ -15,14 +15,19 @@ Copy and unzip the zip flie into the rpi (using another powershell terminal)
 
 Switch back to the rpi terminal and unzip the file:
 
-```cd ~/ws_rpi/src
-unzip rpi_cam_pub.zip```
+<code>
+  cd ~/ws_rpi/src
+  unzip rpi_cam_pub.zip
+</code>
 
 Ok, because the rpi does not seem to have sufficient memory to run the pkg, we need to use swap memory which utlises some of the local storage as memory. Please follow the instructions [here](https://www.codegrepper.com/code-examples/shell/add+swap+ubuntu+20.04)
 
 Return to the workspace directory run the package:
 
-```cd ~/ws_rpi
-catkin_make -j1```
+
+<code>
+  cd ~/ws_rpi
+  catkin_make -j1
+</code>
 
 
